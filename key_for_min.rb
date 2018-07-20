@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
     numbers << number
     end
     x = 0 
-      while x < numbers.length-2
+      while x < numbers.length
           if numbers[x] < numbers[x + 1]
              number[x + 1] = number[x]
           else
