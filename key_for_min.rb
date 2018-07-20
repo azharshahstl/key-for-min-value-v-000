@@ -4,10 +4,11 @@
 def key_for_min_value(name_hash)
   if name_hash == {}
       return nil
-  else
+  end
     numbers = []
     name_hash.each do |name, number|
     numbers << number
+    end
     x = 0 
       while x < numbers.length-2
           if numbers[x] < numbers[x + 1]
@@ -15,7 +16,7 @@ def key_for_min_value(name_hash)
           else
              numbers = numbers[x + 1] 
           end
-      end
+      
     end
-  end
+  
 end
