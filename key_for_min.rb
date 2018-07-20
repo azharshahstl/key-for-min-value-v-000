@@ -17,7 +17,7 @@ def key_for_min_value(name_hash)
           else
              numbers[x + 1] = numbers[x + 1] 
           end
-      
+      x += 1 
       end
   
 end
