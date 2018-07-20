@@ -11,11 +11,12 @@ def key_for_min_value(name_hash)
     end
       numbers
       x = 0 
-      while x <= name_hash.length - 2
+      while x <= name_hash.length
           if numbers[x] < numbers[x + 1]
-             numbers.delete[x + 1]
+             numbers
           else
-             numbers.delete[x]
+             numbers[x + 1] = numbers[x] 
+             numbers[x] = numbers[x + 1] 
           end
       x += 1 
       end
