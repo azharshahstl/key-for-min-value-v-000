@@ -8,7 +8,6 @@ def key_for_min_value(name_hash)
     numbers = []
     name_hash.each do |name, number|
     numbers << number
-    end
     x = 0 
       while x < numbers.length-2
           if numbers[x] < numbers[x + 1]
@@ -17,6 +16,6 @@ def key_for_min_value(name_hash)
              numbers = numbers[x + 1] 
           end
       end
-    
+    end
   end
 end
