@@ -7,9 +7,10 @@ def key_for_min_value(name_hash)
     x = 0 
     while x < number.length-2
         if number[x] < number[x + 1]
-            swap = number[x]
-            number[x] = number[x+1]
-            number[x + 1] = swap
+           number[x] = number[x+1]
+           number[x + 1] = swap
+        else
+           number[x = 1] = number[x = 1] 
         end
     end
   end
