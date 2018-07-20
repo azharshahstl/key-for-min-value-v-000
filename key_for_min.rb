@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     name_hash.each do |name, number|
     number 
     x = 0 
-      while x < number.length-2
+      while x < name_hash.length-2
           if number[x] < number[x + 1]
              number[x + 1] = number[x]
           else
