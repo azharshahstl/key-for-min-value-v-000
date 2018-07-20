@@ -11,7 +11,7 @@ def key_for_min_value(name_hash)
     end
       numbers
       x = 0 
-      while x < name_hash.length - 2  
+      while x <= name_hash.length - 2  
           if numbers[0] < numbers[x + 1]
              numbers
           else
