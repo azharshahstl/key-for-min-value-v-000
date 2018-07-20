@@ -5,6 +5,7 @@ def key_for_min_value(name_hash)
   if name_hash == {}
       return nil
   else
+    numbers = []
     name_hash.each do |name, number|
     numbers << number
     end
