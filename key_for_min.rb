@@ -4,10 +4,5 @@
 def key_for_min_value(name_hash)
   name_hash.each do |name, number|
     number 
-    if number != []
-      number[0] 
-    else
-      nil 
-    end
-  end
+    
 end
