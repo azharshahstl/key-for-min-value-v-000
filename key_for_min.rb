@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
     name_hash.each do |name, number|
     numbers << number
     end
+    numbers
     x = 0 
       while x < numbers.length
           if numbers[x] < numbers[x + 1]
