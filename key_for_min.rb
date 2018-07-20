@@ -12,5 +12,5 @@ def key_for_min_value(name_hash)
             number[x + 1] = swap
         end
     end
-end
+  end
 end
