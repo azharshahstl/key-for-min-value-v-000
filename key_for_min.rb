@@ -18,8 +18,8 @@ def key_for_min_value(name_hash)
              numbers
           else
              numbers[x + 1] = numbers[0] 
-             names[x + 1] = names[0] 
-             numbers[0] = numbers[x + 1] 
+             numbers[0] = numbers[x + 1]
+             
              names[0] = names[x + 1]
           end
       x += 1 
