@@ -6,15 +6,16 @@ def key_for_min_value(name_hash)
       return nil
   else
     name_hash.each do |name, number|
-    number 
+    numbers 
+    end
     x = 0 
-      while x < name_hash.length-2
-          if number[x] < number[x + 1]
+      while x < numbers.length-2
+          if numbers[x] < numbers[x + 1]
              number[x + 1] = number[x]
           else
-             number[x + 1] = number[x + 1] 
+             numbers = numbers[x + 1] 
           end
       end
-    end
+    
   end
 end
