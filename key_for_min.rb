@@ -13,9 +13,9 @@ def key_for_min_value(name_hash)
       x = 0 
       while x < name_hash.length
           if numbers[x] < numbers[x + 1]
-             number[x + 1] = number[x]
+             numbers[x + 1] = numbers[x]
           else
-             numbers = numbers[x + 1] 
+             numbers[x + 1] = numbers[x + 1] 
           end
       
       end
