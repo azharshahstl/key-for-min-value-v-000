@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
       return nil
   end
     numbers = []
+    names = []
     name_hash.each do |name, number|
     numbers << number
     names << name
