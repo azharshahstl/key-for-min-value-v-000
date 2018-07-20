@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
       return nil
   else
     name_hash.each do |name, number|
-    numbers 
+    numbers << number
     end
     x = 0 
       while x < numbers.length-2
